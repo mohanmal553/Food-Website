@@ -1,0 +1,421 @@
+        *{
+            margin:0;
+            padding:0;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          }
+        body{
+            width: 100%;
+        }
+        .div-1{
+          height:60px;
+          width:100%;
+          position:fixed;
+          box-shadow: 0px 10px 10px 1px gray;
+          z-index: 10;
+          background-color: whitesmoke;
+        }
+        .nav-1{
+          height: 60px;
+        }
+        .label-1{
+          color:rgb(243, 75, 24);
+          font-size:50px;
+          line-height:52px;
+          font-weight:bolder;
+          background-image:url("food-logo1.png");
+          background-size:cover;
+          background-repeat: no-repeat;
+        }
+        #check{
+           display:none;
+        }
+        .label-2{
+           font-size: 25;
+           float:right;
+           margin-top:15px;
+           display:none;
+        }
+        .label-3{
+          font-size: 25;
+          float:right;
+          margin-top:15px;
+          display:none;
+        }
+        .list-1{
+          float: right;
+        }
+        li{
+          display: inline-block;
+          line-height:60px;
+          padding: 0px 5px;
+          font-size: 20px;
+        }
+        a{
+          text-decoration: none;
+          color:black;
+        }
+        .list1-a1:hover{
+          background-color:rgb(243, 75, 24);
+          color:white;
+        }
+        .list1-a1{
+          color:rgb(243, 75, 24);
+        }
+        @media(max-width:462px){
+          a{
+          text-decoration: none;
+          color:white;
+         }
+          li{
+          display: block;
+          padding: 0px 5px;
+          font-size: 20px;
+          background-color: black;
+          text-align: center;
+          padding:0px 20px;
+        }
+        .list-1{
+          position: absolute;
+          top:70px;
+          right:-130px;
+          /*display:none;*/
+        }
+        .label-3{
+          display: block;
+          margin-right:10px;
+        } 
+        .div-1{
+          width: 100%;
+        }
+        }
+        #check:checked ~ .list-1{
+          top:70px;
+          right:0px;
+          display:block;
+          transition: 1s;
+        }
+        #check:checked ~ .label-3{
+           display:none;
+        }
+        #check:checked ~ .label-2{
+          display:block;
+          margin-right: 10px;
+        }
+             /*main Body start*/
+        .div-2{
+          position:relative;
+          top:100px;
+          display:flex;
+          flex-wrap: wrap;
+        }
+        .div2-child1{
+          height:600px;
+          width: 600px;
+          background-image:url("food1.jpg");
+          background-repeat:no-repeat;
+          background-size: cover;
+        }
+        .div2-child2{
+          height:max-content;
+          width:max-content;
+          margin-left:0px;
+          
+        }
+        .p1{
+            color:white;
+            background-color: rgb(10, 167, 10);
+            width:max-content;
+            margin-top:200px;
+            padding: 3px 1px;
+        }
+        .h1{
+            font-size: 50px;
+        }
+        .p2{
+            font-size: 20px;
+            margin-top:10px;
+        }
+        .p3{
+           background-color: orange;
+           font-weight:bolder;
+           font-size: large;
+           width:max-content;
+           margin-top:18px;
+           padding: 3px 1px;
+        }
+        .div-3{
+          position: relative;
+          margin-top: 100px;
+          display: flex;
+          justify-content:space-around;
+          flex-wrap: wrap;
+        }
+        .div3-child1{
+           height:80px;
+           width:290px;
+           background-image:url("discount1.png");
+           background-size: 80px 80px;
+           background-repeat: no-repeat;
+        }
+        .div3-child2{
+           height:80px;
+           width:290px;
+           background-image:url("basket.jpg");
+           background-size: 80px 80px;
+           background-repeat: no-repeat;
+        }
+        .div3-child3{
+           height:80px;
+           width:290px;
+           background-image:url("home.jpg");
+           background-size: 80px 80px;
+           background-repeat: no-repeat;
+        }
+        .div3-p1{
+          width:max-content;
+          margin:5px 85px;
+          font-weight:bolder;
+        }
+        .div3-p2{
+          width:200px;
+          margin:5px 85px;
+          color:rgb(36, 35, 35);
+        }
+        .div-four{
+          margin-top:10px;
+          text-align: center;
+        }
+        .div4-p1{
+          margin-top:50px;
+        }
+        .div4-f1{
+           background-color:rgb(10, 167, 10);
+           color:white;
+           font-size:20px;
+        }
+        .div4-f2{
+           font-size:25px;
+           font-weight:bolder;
+        }
+        .div-five{
+          margin-top:10px;
+          display:flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+        .div5-child1{
+           height: 400px;
+           width:250px;
+           margin-top:20px;
+           background-image:url("foods1.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           border-radius:10px;
+        }
+        .div5-child2{
+           height: 400px;
+           width:250px;
+           margin-top:20px;
+           background-image:url("foods2.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           border-radius:10px;
+        }
+        .div5-child3{
+           height: 400px;
+           width:250px;
+           margin-top:20px;
+           background-image:url("foods3.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           border-radius:10px;
+        }
+        .div5-child4{
+           height: 400px;
+           width:250px;
+           margin-top:20px;
+           background-image:url("foods4.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           border-radius:10px;
+        }
+        .div5-child5{
+           height: 400px;
+           width:250px;
+           margin-top:20px;
+           background-image:url("foods5.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           border-radius:10px;
+        }
+        .div5-child6{
+           height: 400px;
+           width:250px;
+           margin-top:20px;
+           background-image:url("foods6.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           border-radius:10px;
+        }
+        .div5-child7{
+           height: 400px;
+           width:250px;
+           margin-top:20px;
+           background-image:url("foods7.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           border-radius:10px;
+        }
+        .div5-child8{
+           height: 400px;
+           width:250px;
+           margin-top:20px;
+           background-image:url("foods8.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           border-radius:10px;
+        }
+        .div5-child9{
+           height: 400px;
+           width:250px;
+           margin-top:20px;
+           background-image:url("foods9.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           border-radius:10px;
+        }
+        .div5-child10{
+           height: 400px;
+           width:250px;
+           margin-top:20px;
+           background-image:url("foods10.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           border-radius:10px;
+        }
+        .div-six{
+           background-color: wheat;
+           margin-top:15px;
+           display:flex;
+           flex-wrap:wrap;
+           justify-content:space-around;
+        }
+        .div6-child1{
+           width:200px;
+           height: 200px;
+           background-color: wheat;
+           background-image:url("food-logo1.png");
+           background-size: contain;
+           background-repeat: no-repeat;
+           margin-top:5px;
+        }
+        .div6-child2{
+          width:200px; 
+           background-color: wheat;
+        }
+        .div6-child2-p1{
+          color:rgb(54, 53, 53);
+          font-size: 25px;
+          font-weight:bolder;
+          margin-top:20px;
+        }
+        .div6-child2-p2{
+          font-size: 16px;
+          margin-top:5px;
+        }
+        .div6-child3-p1{
+          font-size: 16px;
+          margin-top:5px;
+          color: green;
+        }
+        .div6-child3{
+          width:200px;
+           background-color: wheat;
+        }
+        .div6-child4{
+          width:200px;
+           background-color: wheat;
+        }
+        .div6-child2-p2{
+          margin-top:8px;
+        }
+        .div6-child2-p3{
+          margin-bottom: 8px;
+        }
+        #div6-child4-i1{
+          margin: 10px 5px;
+          font-size: 20px;
+        }
+        .div6-child4-i{
+          text-align: center;
+        }
+        /*photo style start*/
+        .div5-child1:hover{
+          margin-top:2px;
+          transition:400ms;
+          box-shadow: 10px 10px 5px gray;
+        }
+        .div5-child2:hover{
+          margin-top:2px;
+          transition:400ms;
+          box-shadow: 10px 10px 5px gray;
+        }
+        .div5-child3:hover{
+          margin-top:2px;
+          transition:400ms;
+          box-shadow: 10px 10px 5px gray;
+        }
+        .div5-child4:hover{
+          margin-top:2px;
+          transition:400ms;
+          box-shadow: 10px 10px 5px gray;
+        }
+        .div5-child5:hover{
+          margin-top:2px;
+          transition:400ms;
+          box-shadow: 10px 10px 5px gray;
+        }
+        .div5-child6:hover{
+          margin-top:2px;
+          transition:400ms;
+          box-shadow: 10px 10px 5px gray;
+        }
+        .div5-child7:hover{
+          margin-top:2px;
+          transition:400ms;
+          box-shadow: 10px 10px 5px gray;
+        }
+        .div5-child8:hover{
+          margin-top:2px;
+          transition:400ms;
+          box-shadow: 10px 10px 5px gray;
+        }
+        .div5-child9:hover{
+          margin-top:2px;
+          transition:400ms;
+          box-shadow: 10px 10px 5px gray;
+        }
+        .div5-child10:hover{
+          margin-top:2px;
+          transition:400ms;
+          box-shadow: 10px 10px 5px gray;
+        }
+        /*photo style end*/
+        @media(max-width:624px)
+        {
+          .div2-child1{
+          height:350px;
+          width: 600px;
+          background-image:url("food1.jpg");
+          background-repeat:no-repeat;
+          background-size: contain;
+        }
+        }
+        i:hover{
+            color:rgb(207, 17, 4);
+            font-weight: bolder;
+        }
+        input:focus{
+            background-color: black;
+            color:aqua;
+        }
